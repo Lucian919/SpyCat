@@ -14,7 +14,7 @@ Python 3.8 or higher
 To simplify the setup process, a shell script (**setup_and_run.sh**) is provided. Follow these steps:
 
 ## Navigate to the Project Directory:
-Open a terminal and navigate to the django-project directory:
+Open a terminal(Bash) and navigate to the django-project directory:
 
 ## Run the Setup Script:
 Execute the **setup_and_run.sh** script to set up the project and start the development server:

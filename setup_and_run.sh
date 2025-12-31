@@ -16,8 +16,12 @@ fi
 
 # Step 2: Activate the virtual environment
 echo "Activating virtual environment..."
-source venv/bin/activate
 
+if [[ "$OSTYPE" == "msys"* || "$OSTYPE" == "cygwin"* ]]; then
+    source venv/Scripts/activate
+else
+    source venv/bin/activate
+fi
 # Step 3: Install dependencies
 echo "Installing dependencies..."
 pip install --upgrade pip
